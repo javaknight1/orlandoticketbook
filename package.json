@@ -1,0 +1,14 @@
+{
+  "name": "orlando-ticket-book",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static itinerary and cost builder for a 14-day Orlando theme park trip",
+  "scripts": {
+    "dev": "wrangler dev",
+    "check": "node scripts/validate.mjs",
+    "deploy": "npm run check && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
